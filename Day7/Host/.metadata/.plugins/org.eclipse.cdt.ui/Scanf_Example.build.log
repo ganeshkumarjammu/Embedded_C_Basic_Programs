@@ -1,0 +1,7 @@
+16:39:24 **** Rebuild of configuration Debug for project Scanf_Example ****
+Info: Internal Builder is used for build
+gcc "-IC:\\MinGW\\include" "-IC:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include" "-IC:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed" -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+g++ -o Scanf_Example.exe main.o 
+
+16:39:25 Build Finished. 0 errors, 0 warnings. (took 668ms)
+

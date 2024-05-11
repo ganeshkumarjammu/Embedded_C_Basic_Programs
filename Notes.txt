@@ -1,0 +1,4 @@
+In embedded C, we use host and target folders to organize our code and make it easier to build and deploy our applications.
+The host folder is where we keep our development tools and source code. This is the computer that we use to write, compile, and debug our code.
+The target folder is where we keep the compiled code that will be deployed to our embedded device. This is the computer or device that our application will run on.
+Using separate host and target folders helps us to keep our code organized and makes it easier to track changes. It also helps us to avoid accidentally deploying the wrong version of our code to our embedded device.
