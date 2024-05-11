@@ -4,7 +4,7 @@ int printFloat();
 int scanNums();
 
 int main(){
-    scanNums();
+
 	printFloat();
 	//getchar();
 	//return 0;
@@ -16,14 +16,14 @@ int scanNums(){
 	fflush(stdout);
 	scanf("%d %d %d",&num1,&num2,&num3);
 	avg = (num1+num2+num3)/3;
-	printf("The Total SA Marks Average is : %d\n",avg);
-	//getchar();
+	printf("The Total SA Marks Average is : %d",avg);
+	getchar();
 	return 0;
 }
 
 int printFloat(){
 	float num1 = 5.6667;
-	printf("The Float number is %f\n ", num1);
-	//getchar();
+	printf("The Float number is %f ", num1);
+	getchar();
 	return 0 ;
 }
