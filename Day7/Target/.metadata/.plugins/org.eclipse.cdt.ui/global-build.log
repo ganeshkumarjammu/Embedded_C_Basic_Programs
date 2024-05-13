@@ -1,21 +1,98 @@
-16:04:04 **** Incremental Build of configuration Debug for project day7 ****
+20:45:09 **** Incremental Build of configuration Debug for project Maths_Operations ****
 make -j8 all 
-arm-none-eabi-size   day7.elf 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Maths_Operations.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\8_Learning\STM32\Day7\Target\Maths_Operations\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Maths_Operations.map" -Wl,--gc-sections -static -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Maths_Operations.elf
+ 
+arm-none-eabi-size   Maths_Operations.elf 
+arm-none-eabi-objdump -h -S  Maths_Operations.elf  > "Maths_Operations.list"
    text	   data	    bss	    dec	    hex	filename
-   4864	    100	   1900	   6864	   1ad0	day7.elf
+  23484	    464	   1904	  25852	   64fc	Maths_Operations.elf
 Finished building: default.size.stdout
  
-16:04:47 **** Incremental Build of configuration Debug for project day7 ****
+Finished building: Maths_Operations.list
+ 
+20:52:22 **** Incremental Build of configuration Debug for project Maths_Operations ****
 make -j8 all 
-arm-none-eabi-size   day7.elf 
+arm-none-eabi-size   Maths_Operations.elf 
    text	   data	    bss	    dec	    hex	filename
-   4864	    100	   1900	   6864	   1ad0	day7.elf
+  23484	    464	   1904	  25852	   64fc	Maths_Operations.elf
 Finished building: default.size.stdout
  
-16:05:17 **** Incremental Build of configuration Debug for project day7 ****
+20:53:50 **** Incremental Build of configuration Debug for project Maths_Operations ****
 make -j8 all 
-arm-none-eabi-size   day7.elf 
+arm-none-eabi-size   Maths_Operations.elf 
    text	   data	    bss	    dec	    hex	filename
-   4864	    100	   1900	   6864	   1ad0	day7.elf
+  23484	    464	   1904	  25852	   64fc	Maths_Operations.elf
+Finished building: default.size.stdout
+ 
+20:54:32 **** Incremental Build of configuration Debug for project Maths_Operations ****
+make -j8 all 
+arm-none-eabi-size   Maths_Operations.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23484	    464	   1904	  25852	   64fc	Maths_Operations.elf
+Finished building: default.size.stdout
+ 
+21:34:59 **** Incremental Build of configuration Debug for project Maths_Operations ****
+make -j8 all 
+arm-none-eabi-size   Maths_Operations.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23484	    464	   1904	  25852	   64fc	Maths_Operations.elf
+Finished building: default.size.stdout
+ 
+21:39:23 **** Incremental Build of configuration Debug for project Maths_Operations ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Maths_Operations.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\8_Learning\STM32\Day7\Target\Maths_Operations\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Maths_Operations.map" -Wl,--gc-sections -static -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Maths_Operations.elf
+ 
+arm-none-eabi-size   Maths_Operations.elf 
+arm-none-eabi-objdump -h -S  Maths_Operations.elf  > "Maths_Operations.list"
+   text	   data	    bss	    dec	    hex	filename
+  23484	    464	   1904	  25852	   64fc	Maths_Operations.elf
+Finished building: default.size.stdout
+ 
+Finished building: Maths_Operations.list
+ 
+21:45:08 **** Incremental Build of configuration Debug for project Maths_Operations ****
+make -j8 all 
+arm-none-eabi-size   Maths_Operations.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23484	    464	   1904	  25852	   64fc	Maths_Operations.elf
+Finished building: default.size.stdout
+ 
+21:50:06 **** Incremental Build of configuration Debug for project Maths_Operations ****
+make -j8 all 
+arm-none-eabi-size   Maths_Operations.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23484	    464	   1904	  25852	   64fc	Maths_Operations.elf
+Finished building: default.size.stdout
+ 
+21:50:56 **** Incremental Build of configuration Debug for project Maths_Operations ****
+make -j8 all 
+arm-none-eabi-size   Maths_Operations.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23484	    464	   1904	  25852	   64fc	Maths_Operations.elf
+Finished building: default.size.stdout
+ 
+21:54:24 **** Incremental Build of configuration Debug for project Maths_Operations ****
+make -j8 all 
+arm-none-eabi-size   Maths_Operations.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23484	    464	   1904	  25852	   64fc	Maths_Operations.elf
+Finished building: default.size.stdout
+ 
+21:55:09 **** Incremental Build of configuration Debug for project Maths_Operations ****
+make -j8 all 
+arm-none-eabi-size   Maths_Operations.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23484	    464	   1904	  25852	   64fc	Maths_Operations.elf
+Finished building: default.size.stdout
+ 
+21:55:30 **** Incremental Build of configuration Debug for project Maths_Operations ****
+make -j8 all 
+arm-none-eabi-size   Maths_Operations.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23484	    464	   1904	  25852	   64fc	Maths_Operations.elf
 Finished building: default.size.stdout
  

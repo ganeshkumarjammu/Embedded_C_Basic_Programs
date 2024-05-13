@@ -1,0 +1,4 @@
+../Src/math.c:3:5:math_add	1
+../Src/math.c:9:5:math_sub	1
+../Src/math.c:15:15:math_mul	1
+../Src/math.c:21:7:math_div	1

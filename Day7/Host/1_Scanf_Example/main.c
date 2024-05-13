@@ -23,7 +23,7 @@ int scanNums(){
 
 int printFloat(){
 	float num1 = 5.6667;
-	printf("The Float number is %f\n ", num1);
+	printf("The Float number is %0.2f\n ", num1);
 	//getchar();
 	return 0 ;
 }
