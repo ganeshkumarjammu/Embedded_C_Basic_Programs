@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Pointers_Usage/pointers_for_char&apos; to &apos;pointers_for_char.c&apos;" description="Rename resource &apos;pointers_for_char&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="pointers_for_char" name="pointers_for_char.c" stamp="1715693118977" updateReferences="true"/>
+</session>

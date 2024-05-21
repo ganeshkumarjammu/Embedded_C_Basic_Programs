@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(){
+	int i_num1 = 10 ;
+	int i_num2 = 40 ;
+	int* p_num1 ;
+	p_num1 = & i_num1;
+	int ir_num1 = *p_num1;
+	*p_num1 = 50;
+	printf("Number 1 is %p \n",&i_num1);
+	printf("Number 2 is %p \n",&i_num2);
+	printf("Pointer Stored Address is %d",p_num1);
+	printf("Pointer data using Read operation is %d",ir_num1);
+	printf("Pointer data after write operation :%d",*p_num1)
+	//fflush(stdout);
+	return 0;
+}

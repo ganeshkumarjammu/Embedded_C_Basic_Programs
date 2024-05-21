@@ -1,0 +1,5 @@
+19:15:07 **** Clean-only build of configuration Debug for project Pointers_Usage_with_Char ****
+rm -rf main.d main.o Pointers_Usage_with_Char.exe 
+
+19:15:07 Build Finished. 0 errors, 0 warnings. (took 131ms)
+

@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(){
+	int i_num1 = 10 ;
+	int i_num2 = 40 ;
+	printf("Number 1 is %p",&i_num1);
+	printf("Number 1 is %p",&i_num2);
+	//fflush(stdout);
+	return 0;
+}

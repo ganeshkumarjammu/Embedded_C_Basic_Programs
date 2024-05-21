@@ -1,0 +1,20 @@
+/*
+ * main.c
+ *
+ *       Created on: May 21, 2024
+ *      Author: jammu Ganesh Kumar
+ */
+
+#include <stdio.h>
+#include <stdint.h>
+
+struct carModel {
+	uint8_t carMaxSpeed;
+};
+
+int main(){
+	struct carModel BMW = {200};
+	printf("Size of structure variable %u\n",sizeof(BMW));
+	return 0 ;
+}
+

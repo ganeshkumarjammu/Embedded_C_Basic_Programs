@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+int main() {
+    // Declare variables
+    int i_num1 = 10;
+    int i_num2 = 40;
+    int* p_num1;  // Declare a pointer variable
+
+    // Assign the address of i_num1 to the pointer variable p_num1
+    p_num1 = &i_num1;
+
+    // Assign the value stored at the address pointed by p_num1 to ir_num1
+    int ir_num1 = *p_num1;
+
+    // Change the value stored at the address pointed by p_num1 to 50
+    *p_num1 = 50;
+
+    // Print the memory address of i_num1
+    printf("Number 1 is %p \n", &i_num1);
+
+    // Print the memory address of i_num2
+    printf("Number 2 is %p \n", &i_num2);
+
+    // Print the memory address stored in the pointer variable p_num1
+    printf("Pointer Stored Address is %p \n", p_num1);
+
+    // Print the value stored at the address pointed by p_num1 (ir_num1)
+    printf("Pointer data using Read operation is %d \n", ir_num1);
+
+    // Print the value stored at the address pointed by p_num1 after write operation
+    printf("Pointer data after write operation: %d \n", *p_num1);
+
+    // Return 0 to indicate successful completion of the program
+    return 0;
+}

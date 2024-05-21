@@ -1,0 +1,5 @@
+13:09:45 **** Incremental Build of configuration Debug for project decision_making_statements ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o decision_making_statements.exe main.o 
+Info: Nothing to build for decision_making_statements

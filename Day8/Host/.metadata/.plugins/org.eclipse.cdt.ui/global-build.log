@@ -1,0 +1,11 @@
+19:27:17 **** Rebuild of configuration Debug for project Pointers_Usage ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o pointers_for_char.o "..\\pointers_for_char.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main1':
+..\main.c:30:31: warning: ' ' flag used with '%x' ms_printf format [-Wformat=]
+     printf("Data address is % x \n", &c_data);
+                               ^
+..\main.c:30:31: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'char *' [-Wformat=]
+gcc -o Pointers_Usage.exe main.o pointers_for_char.o 
+Info: Nothing to build for Pointers_Usage
